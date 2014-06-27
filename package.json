@@ -1,0 +1,22 @@
+{
+  "name": "semverify",
+  "version": "0.0.1",
+  "description": "Update your package.json dependencies to satisfy a semver policy",
+  "main": "index.js",
+  "author": "Mandarin Drummond",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^3.1.5",
+    "underscore": "^1.6.0",
+    "jsonparse": "^0.0.6",
+    "semver": "^2.3.1",
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "gulp-mocha": "^0.4.1",
+    "gulp": "^3.8.5",
+    "gulp-util": "^2.2.19",
+    "gulp-semverify" : "^0.0.1"
+  }
+}
