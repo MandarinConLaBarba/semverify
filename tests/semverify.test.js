@@ -131,12 +131,12 @@ describe("lib/semverify", function(){
 
       describe("and the dependency is a git URL", function(){
 
-        describe("and the dependency does have a wildcard in the patch position", function(){
+        describe("and the dependency does NOT have a wildcard in the patch position", function(){
 
           beforeEach(function() {
 
             dependencies = {
-              'sweet-package' : 'git://github.com/someUser/someRepo#v1.2.*'
+              'sweet-package' : 'git://github.com/someUser/someRepo#v1.2.3'
             };
 
             result = semverify.checkPolicy(dependencies, policy);
