@@ -1,6 +1,6 @@
 {
   "name": "semverify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Update your package.json dependencies to satisfy a semver policy",
   "main": "index.js",
   "author": "Mandarin Drummond",
